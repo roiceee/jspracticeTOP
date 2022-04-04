@@ -1,0 +1,56 @@
+html {
+    background-image: url("/home/roice/vscode/JavaScript30/practice/01 - JavaScript Drum Kit/background.jpg");
+    font-family: 'Courier New', Courier, monospace;
+   background-size: cover;
+}
+
+body {
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.keys {
+    display:flex;
+    opacity: 1;
+    flex-flow: row wrap;
+    gap: 16px;
+    flex-shrink: 1;
+}
+
+.key{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    border: 4px solid white;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    height: 75px;
+    width: 75px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+kbd {
+    color: white;
+    font-size: 32px;
+}
+
+.soundtype {
+    color: orange;
+    font-size: larger;
+    
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
