@@ -3,7 +3,7 @@
 body {
     height: 100vh;
     text-align: center;
-    background-image: url("drumbackgroun.jpg");
+    background-image: url("drumbackground.jpg");
     background-size: cover;
     font-family: 'Courier New', Courier, monospace;
 }
