@@ -1,12 +1,11 @@
-html {
-    background-image: url("sounds/background.jpg");
-    font-family: 'Courier New', Courier, monospace;
-   background-size: cover;
-}
+
 
 body {
     height: 100vh;
     text-align: center;
+    background-image: url("sounds/background.jpg");
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .container {
