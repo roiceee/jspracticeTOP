@@ -3,7 +3,7 @@
 body {
     height: 100vh;
     text-align: center;
-    background-image: url("https://github.com/jroiceee/jspracticeTOP/blob/01b8ab3532d03f5ec70593c78f452dd35a50cd11/sounds/background.jpg");
+    background-image: url("sounds/background.jpg");
     background-size: cover;
     font-family: 'Courier New', Courier, monospace;
 }
